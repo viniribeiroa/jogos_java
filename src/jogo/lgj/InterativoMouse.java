@@ -45,7 +45,7 @@ public class InterativoMouse extends JFrame{
 				int y = py;
 				
 				g.setColor(Color.BLUE);
-				g.fillRect(x, y, 40, 40);
+				g.fillRect(x, y, 10, 10);
 				g.drawString("Agora estou em " + x + "x" + y +"y", 5, 10);
 			}
 		};
